@@ -1,0 +1,121 @@
+header {
+  margin-top: 0px;
+  background-color: #ddd;
+}
+header .row {
+  margin: 120px 10px;
+}
+header .row h5 {
+  color: var(--btn-color) !important;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 25px 25px;
+  margin-bottom: -20px;
+}
+header h2 {
+  color: var(--main-color) !important;
+  font-size: 45px;
+  margin: 30px 25px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+header button {
+  background: var(--orange-color) !important;
+  border: 1px solid var(--orange-color) !important;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 4px !important;
+  transition: 0.2s ease;
+}
+header button a {
+  color: #fff !important;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+header button:hover a {
+  color: #fff;
+}
+header button:hover {
+  opacity: 0.6;
+}
+header img {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -50px;
+  animation: mover 1s infinite alternate;
+  -moz-animation: mover 1s infinite alternate;
+  -o-animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  transition: all 0.3s;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+header .box {
+  position: relative;
+  height: auto;
+}
+header .square {
+  color: var(--main-color) !important;
+  width: 80px;
+  position: absolute;
+  left: -20%;
+  top: 10%;
+  animation: mover 1.1s infinite alternate !important;
+}
+header .retangle {
+  color: var(--main-color) !important;
+  width: 60px;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  animation: mover 1.1s infinite alternate !important;
+}
+
+/* Media Query for Phone Browsers */
+@media (max-width: 768px) {
+  header .row {
+    margin: 60px 5px;
+  }
+  header .row h5 {
+    font-size: 16px;
+    margin: 15px 15px;
+  }
+  header h2 {
+    font-size: 30px;
+    margin: 20px 15px;
+  }
+  header button {
+    width: 150px;
+    height: 40px;
+    margin-left: 15px;
+  }
+  header button a {
+    font-size: 14px;
+  }
+  header img {
+    width: 250px;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  header .square {
+    width: 60px;
+    left: -15%;
+  }
+  header .retangle {
+    width: 50px;
+    bottom: 15%;
+  }
+}

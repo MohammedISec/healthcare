@@ -1,0 +1,45 @@
+.bannar {
+  width: 100%;
+  height: auto;
+  background-image: "../Assests/bannarBackgroud.png";
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-align: center;
+  padding: 25px 0px;
+  margin-top: 0;
+}
+
+.bannar h2 {
+  font-size: 80px;
+  color: var(--main-color) !important;
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: center;
+  line-height: 120px;
+}
+.bannar li {
+  background-color: #575bcf;
+  border: 1px solid #575bcf;
+  color: #ffffff;
+  text-align: center;
+  height: 50px;
+  width: 300px;
+  font-size: 17px;
+  line-height: 50px;
+  margin: 20px auto;
+  border-radius: 8px;
+
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  text-transform: uppercase;
+}
+.bannar li a {
+  color: #ffffff;
+  margin: 0px 10px;
+}
+
+.bannar li a svg {
+  margin-right: 10px;
+}

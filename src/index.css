@@ -1,13 +1,115 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"); */
+/* import Tajawal from "./fonts/Tajawal-Regular.ttf"; */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+  /* background: #221b1b !important ; */
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #1f2278;
+  --orange-color: #f27933;
+  --btn-color: #575bcf;
+}
+section,
+footer,
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0px;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none !important;
+}
+span {
+  display: block;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}
+p {
+  line-height: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  font-family: "Tajawal";
+}
+
+/* Responsive styles for phone browsers */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  section,
+  footer,
+  header {
+    padding: 15px 10px;
+    margin-top: 30px;
+  }
+
+  button {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  p {
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  section,
+  footer,
+  header {
+    padding: 10px 5px;
+    margin-top: 20px;
+  }
+
+  button {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  input {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  p {
+    line-height: 16px;
+  }
 }

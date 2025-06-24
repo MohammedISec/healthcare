@@ -1,0 +1,68 @@
+footer img.logo {
+  width: auto;
+  height: 30px; /* Reduced height for smaller screens */
+  margin: 10px 0;
+}
+footer p {
+  font-size: 15px; /* Adjusted font size */
+}
+footer .footer-contact {
+  display: block; /* Stack items vertically */
+}
+footer .footer-contact .footer-icon {
+  margin-right: 10px;
+  width: 35px; /* Reduced size */
+  height: 35px;
+}
+footer .footer-contact h6 {
+  font-size: 14px; /* Adjusted font size */
+}
+footer .footer-contact h4 {
+  font-size: 16px; /* Adjusted font size */
+  margin-top: 8px;
+}
+footer h5 {
+  font-size: 24px; /* Adjusted font size */
+  margin: 10px 0px;
+}
+footer ul li {
+  margin-top: 8px;
+}
+footer ul li a {
+  font-size: 14px; /* Adjusted font size */
+}
+footer form input {
+  height: 35px; /* Reduced height */
+}
+footer form button {
+  height: 35px; /* Reduced height */
+}
+footer .footer-bottom p {
+  font-size: 16px; /* Adjusted font size */
+}
+footer .footer-bottom hr {
+  width: 90%; /* Adjusted width */
+}
+
+/* Media query for phone browsers */
+@media (max-width: 768px) {
+  footer .footer-contact {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+  footer .footer-contact .footer-icon {
+    margin: 10px 0; /* Adjust margin for better spacing */
+  }
+  footer ul.social-icons li {
+    margin-right: 5px; /* Adjust spacing */
+  }
+  footer .footer-bottom div {
+    background-color: black;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+  }
+  footer .footer-bottom p {
+    font-size: 14px; /* Further reduce font size */
+  }
+}
