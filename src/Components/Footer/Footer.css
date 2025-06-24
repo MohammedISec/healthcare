@@ -57,7 +57,6 @@ footer .footer-bottom hr {
     margin-right: 5px; /* Adjust spacing */
   }
   footer .footer-bottom div {
-    background-color: black;
     display: flex;
     justify-items: center;
     justify-content: center;
